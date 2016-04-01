@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PracticalTest01Var08</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigate_button">Navigate to secondary activity</string>
+    <string name="text_view"></string>
+    <string name="top_left_button">Top left</string>
+    <string name="top_right_button">Top right</string>
+    <string name="bottom_left_button">Bottom left</string>
+    <string name="bottom_right_button">Bottom right</string>
+    <string name="center_button">Center</string>
+    <string name="title_activity_practical_test01_var08_asecondary">
+        PracticalTest01Var08ASecondaryActivity
+    </string>
+    <string name="text_view2"></string>
+    <string name="verify_button">Verify</string>
+    <string name="cancel_button">Cancel</string>
+</resources>
