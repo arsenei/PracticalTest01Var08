@@ -38,7 +38,7 @@ public class PracticalTest01Var08MainActivity extends AppCompatActivity {
                     intent.putExtra("command", command.getText().toString());
                     intent.putExtra("numberOfSuccess", numberOfSuccess);
                     intent.putExtra("numberOfFailure", numberOfFailure);
-                    startActivity(intent);
+                    startActivityForResult(intent, RESULT_OK);
                     break;
                 case R.id.top_left_button:
                     oldText = command.getText().toString();
