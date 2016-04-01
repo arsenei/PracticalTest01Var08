@@ -65,6 +65,12 @@ public class PracticalTest01Var08ASecondaryActivity extends AppCompatActivity {
             command.setText(intent.getExtras().getString("command"));
         }
 
+        verifyButton = (Button)findViewById(R.id.verify_button);
+        verifyButton.setOnClickListener(buttonClickListener);
+
+        cancelButton = (Button)findViewById(R.id.bottom_right_button);
+        cancelButton.setOnClickListener(buttonClickListener);
+
     }
 
 }
